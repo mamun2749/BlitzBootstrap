@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+ font-family: Pacifico;
+ src: url("Pacifico.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: Pacifico;
+ src: url("Pacifico.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: bebas;
+ src: url("bebas.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: bebas;
+ src: url("bebas.TTF") /* TTF file for CSS3 browsers */
+}
+.bebas {
+	font-family: bebas;
+	color: gray;
+}
+
+.HeaderImage_width {
+	width: 100%;
+	margin-bottom: 50px;
+}
+.manu {
+	margin-bottom: 20px;
+	font-family:pacifico;
+	color:gray;
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-right: 25px;
+	font-family: bebas;
+	color:gray;
+	font-weight: lighter;
+}
+.nav ul li span {
+	display: block;
+	color: black;
+
+}
+.slider {
+	
+	background-image: url(background.png);
+	background-size: cover;
+	height: 400px;
+	position: relative;
+
+}
+.text {
+	background-color: #3F3F3F;
+	color: white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 70px;
+	line-height: 0px;
+	padding-top: 15px;
+	font-family: bebas;
+}
+.text p{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+
+}
+.text h1 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.arrow_image {
+	width: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+.counter_button {
+	position: absolute;
+	bottom: 10px;
+	right: -190px;
+}
+.content {
+	background-color: #F6F6F6;
+	margin-bottom: 50px;
+	
+	
+}
+.margin {
+	margin-bottom: 100px;
+}
+.font h1 {
+	font-size: 30px;
+	padding-top: 0;
+}
+.col-md-6 {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 0;
+}
+.image_width {
+	width: 100%;
+	padding-top: 25px;
+}
+.work_margin {
+	margin-bottom: 50px;
+}
+.work_title {
+	width: 100%;
+}
+.font_size {
+	font-family: bebas;
+	font-size: 20px;
+}
+.view_more{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 0;
+
+}
+.view_more span i {
+	font-weight: bolder;
+
+}
+.footer_line {
+	width: 100%;
+}
+.footer {
+	background-image: url(footerTopline2.png);
+	background-size: cover;
+	
+}
+.footer_left {
+	font-weight: lighter;
+	padding-left: 120px;
+	padding-top: 20px;
+	font-size: 13px;
+	font-family: bebas;
+	color:#474747;
+
+}
+.footer_right {
+	text-align: center;
+	padding-left: 70px;
+	font-weight: lighter;
+	padding-top: 20px;
+	font-size: 13px;
+	font-family: bebas;
+	color:#474747;
+}
